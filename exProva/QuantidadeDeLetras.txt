@@ -1,0 +1,22 @@
+iniciar(i=0, j=0)
+definir variavel de palavra(P)
+definir vetor vazio de linhas(vli)
+definir vetor vazio de palavras(vp)
+definir vetor vazio de quantidade(vq)
+
+definir função "compara_letra"(String(str), vetorletras(vl), vetor de numeros(vn))
+    para cada letra, de i até o final da string, faça:
+        para j de 0 até o tamanho de vl, faça:
+            se a letra atual da string(str[i]), for igual a letra atual do vetor vazio(vl[j])
+                somar 1 a posição j de vn
+            se não
+                adicionar a letra atual(str[i]) ao vetorletras (vl[i])
+
+
+
+                
+            
+
+
+
+
