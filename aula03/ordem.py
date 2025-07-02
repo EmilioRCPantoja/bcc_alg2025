@@ -1,9 +1,10 @@
 i=1
-troca=1
 vetor=[]
-aux=0
 
-def bubble_sort(arr):
+
+def bubble_sort(vetor):
+    troca=1
+    aux=0
     for n in range(len(vetor)- 1,0,-1):
         troca=0
         for i in range(n):

@@ -1,6 +1,6 @@
 iniciar(i=0, j=0)
 definir variavel de palavra(P)
-definir vetor vazio de linhas(vli)
+definir vetor vazio de letras(vle)
 definir vetor vazio de palavras(vp)
 definir vetor vazio de quantidade(vq)
 
@@ -12,11 +12,15 @@ definir função "compara_letra"(String(str), vetorletras(vl), vetor de numeros(
             se não
                 adicionar a letra atual(str[i]) ao vetorletras (vl[i])
 
+abrir o arquivo
+    para cada linha até o final do arquivo, faça
+        separa linha por espaços e armazenar as palavras em "vp"
+        para cada j, de 0 até o tamanho de "vp", faça:
+            armazene a palavra atual(vp[j]) na variavel "P"
+            chama a função compara_letra para compara as letras da palavra atual(P) com as letras no vetor de letras(vle)
+            e modificar a qauntidade de letras no vetor de quantidade(vq)   
+
+mostra cada letra do vetor de letras(vle) com a sua quantidade do vetor de quantidade (vq)
 
 
                 
-            
-
-
-
-
